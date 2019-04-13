@@ -21,6 +21,7 @@ In your Namecheap domain's settings go to the Domain tab. Go to the `REDIRECT EM
 
 ![](https://i.imgur.com/OQtrW62.png)
 *Listing 1: Redirect any email to \*@yourdomain.me to your private e-mail address*.
+&nbsp;
 
 Now any e-mail to your custom domain will get redirected to your e-mail. In Gmail they will appear as if they were sent to the targeted domain, e.g.: `kontakt@jcubed.me` not your e-mail address you forward your e-mail to.
 
@@ -49,6 +50,7 @@ Username: apikey
 Password: <your api key from step 3>
 ```
 *Listing 2: How to set the SMTP settings in your Gmail settings*
+&nbsp;
 
 The username is `apikey` and the password is your actual API Key. This is an awesome find, because it's not something SendGrid actively advertises you can do, but Nathan found it in SendGrid's API docs [here](https://sendgrid.com/docs/API_Reference/SMTP_API/getting_started_smtp.html)!
 <hr/>
@@ -67,4 +69,4 @@ contact@jcubed.me
 
 Again, much respect to Nathan H. Leung for his awesome article:
 
-https://medium.com/issacaption/using-a-custom-domain-in-gmail-for-free-with-mailgun-and-sendgrid-2c54e681f378
+[https://medium.com/issacaption/using-a-custom-domain-in-gmail-for-free-with-mailgun-and-sendgrid-2c54e681f378][medium-article]
