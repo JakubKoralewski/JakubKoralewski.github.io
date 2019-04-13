@@ -1,6 +1,5 @@
-## Jakub Koralewski
+## j<sup>3</sup> ([Jakub Koralewski](https://github.com/JakubKoralewski))
 
-[My GitHub profile](https://github.com/JakubKoralewski)
 
 ## Cool projects
 
@@ -29,6 +28,10 @@ Here's the website with working backend on Netlify: https://dziennik.netlify.com
 Vue.js, Vuex, TypeScript, vue-i18n, scss | [PL] & [EN] locale support
 
 
-## Kontakt
+## Contact me
 
-e-mail: kontakt@jcubed.me
+contact@jcubed.me
+
+## Skontaktuj się
+kontakt@jcubed.me
+
