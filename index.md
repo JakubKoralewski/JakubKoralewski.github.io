@@ -1,4 +1,4 @@
-## Cool projects
+# Cool projects
 
 ### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
 
@@ -6,6 +6,8 @@ Chrome Extension to (Box) Select multiple Google Calendar events. You can select
 
 #### Technical info:
 WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Built using TypeScript, Webpack with some SASS (SCSS).
+<hr/>
+&nbsp;
 
 ### [cursor-recorder](https://github.com/JakubKoralewski/cursor-recorder)
 
@@ -13,6 +15,8 @@ Records mouse movement to a file. Use with OBS Studio as an external Python scri
 
 #### Technical info:
 Python, ExtendScript for After Effect's script (basically JavaScript).
+<hr/>
+&nbsp;
 
 ### [dziennik_frontend](https://github.com/JakubKoralewski/dziennik_frontend)
 
@@ -22,17 +26,22 @@ Here's the website with working backend on Netlify: https://dziennik.netlify.com
 
 #### Technical info:
 
-Vue.js, Vuex, TypeScript, vue-i18n, scss | [PL] & [EN] locale support
+Vue.js, Vuex, TypeScript, vue-i18n (both Polish and English language versions), SCSS 
+<hr/>
+&nbsp;
 
-## *Blog*
+## "Blog":
 
-- [How to setup free email with GitHub Student Developer Pack (Namecheap + SendGrid + Gmail)](./blog/free-email.md)
+- [How to setup e-mail using a custom domain for free (Github Student Developer Pack + Namecheap + SendGrid + Gmail)](./blog/free-email.md)
 
+<hr/>
+&nbsp;
+&nbsp;
 
-## Contact me
+# Contact me
 
 contact@jcubed.me
 
-## Skontaktuj się
+# Skontaktuj się
 kontakt@jcubed.me
 
