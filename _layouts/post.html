@@ -33,7 +33,7 @@
           <h2>
             {{ page.title }}
           </h2>
-          <p class="view">by {{ page.author | default: site.author }}</p>
+          <p class="view">by {{ page.author | default: site.author }} {{page.date}}</p>
         </section>
       </div>
     </header>
