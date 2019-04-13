@@ -26,7 +26,7 @@ Python, ExtendScript for After Effect's script (basically JavaScript).
 
 "Harwart" online student register - Single Page Application.
 
-Here's the website with working backend on Netlify: https://dziennik.netlify.com/logged-in
+Here's the website with a working backend hosted on Netlify: [https://dziennik.netlify.com/logged-in](https://dziennik.netlify.com/logged-in)
 
 #### Technical info:
 
