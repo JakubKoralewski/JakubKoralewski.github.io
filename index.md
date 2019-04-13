@@ -26,7 +26,7 @@ Vue.js, Vuex, TypeScript, vue-i18n, scss | [PL] & [EN] locale support
 
 ## *Blog*
 
-- [How to setup free email with Github Student Pack (Namecheap + SendGrid + Gmail)](./blog/free-email.md)
+- [How to setup free email with GitHub Student Developer Pack (Namecheap + SendGrid + Gmail)](./blog/free-email.md)
 
 
 ## Contact me
