@@ -1,10 +1,11 @@
-# How to setup free email with GitHub Student Developer Pack (Namecheap + SendGrid + Gmail)
+# How to setup e-mail using a custom domain for free (Github Student Developer Pack + Namecheap + SendGrid + Gmail)
 
 [medium-article]: https://medium.com/issacaption/using-a-custom-domain-in-gmail-for-free-with-mailgun-and-sendgrid-2c54e681f378
 [student-pack]: https://education.github.com/pack
 
 This is adapted from [this Medium article][medium-article] by Nathan H. Leung. The major difference is that he used MailGun to receive e-mails, and SendGrid to send them. Instead I use NameCheap to receive them, but SendGrid is used in the exact same way!
 <hr/>
+&nbsp;
 
 ## Get your [Github Education][student-pack] package
 
@@ -12,6 +13,7 @@ This is adapted from [this Medium article][medium-article] by Nathan H. Leung. T
    1. your free `.me` domain from Namecheap.
    2. your free SendGrid account.
 <hr/>
+&nbsp;
 
 ## Receive e-mails to your custom domain
 
@@ -24,6 +26,7 @@ Now any e-mail to your custom domain will get redirected to your e-mail. In Gmai
 
 But `how to send e-mails, j³?`, you may ask.
 <hr/>
+&nbsp;
 
 ## How to send e-mails
 
@@ -49,7 +52,7 @@ Password: <your api key from step 3>
 
 The username is `apikey` and the password is your actual API Key. This is an awesome find, because it's not something SendGrid actively advertises you can do, but Nathan found it in SendGrid's API docs [here](https://sendgrid.com/docs/API_Reference/SMTP_API/getting_started_smtp.html)!
 <hr/>
-
+&nbsp;
 
 ## That's it!
 
@@ -57,6 +60,8 @@ Free `.me` domain for a year. Free 15000 e-mails per month thanks to SendGrid. T
 
 contact@jcubed.me
 <hr/>
+&nbsp;
+&nbsp;
 
 ## Sources
 
