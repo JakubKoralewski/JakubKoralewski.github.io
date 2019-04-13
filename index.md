@@ -48,6 +48,5 @@ Vue.js, Vuex, TypeScript, vue-i18n (both Polish and English language versions), 
 
 contact@jcubed.me
 
-# Skontaktuj się
 kontakt@jcubed.me
 
