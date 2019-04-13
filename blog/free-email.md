@@ -10,6 +10,7 @@ This is adapted from [this Medium article][medium-article] by Nathan H. Leung. T
 
 &nbsp;
 <hr/>
+&nbsp;
 
 ## Get your [Github Education][student-pack] package
 
@@ -19,6 +20,7 @@ This is adapted from [this Medium article][medium-article] by Nathan H. Leung. T
 
 &nbsp;
 <hr/>
+&nbsp;
 
 ## Receive e-mails to your custom domain
 
@@ -34,6 +36,7 @@ But `how to send e-mails, j³?`, you may ask.
 
 &nbsp;
 <hr/>
+&nbsp;
 
 ## How to send e-mails
 
@@ -62,6 +65,7 @@ The username is `apikey` and the password is your actual API Key. This is an awe
 
 &nbsp;
 <hr/>
+&nbsp;
 
 ## That's it!
 
