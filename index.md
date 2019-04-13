@@ -1,6 +1,5 @@
 ## j<sup>3</sup> ([Jakub Koralewski](https://github.com/JakubKoralewski))
 
-
 ## Cool projects
 
 ### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
@@ -26,6 +25,10 @@ Here's the website with working backend on Netlify: https://dziennik.netlify.com
 #### Technical info:
 
 Vue.js, Vuex, TypeScript, vue-i18n, scss | [PL] & [EN] locale support
+
+## *Blog*
+
+- [How to setup free email with Github Student Pack (Namecheap + SendGrid + Gmail)](./blog/free-email.md)
 
 
 ## Contact me
