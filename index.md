@@ -1,5 +1,3 @@
-## j<sup>3</sup> ([Jakub Koralewski](https://github.com/JakubKoralewski))
-
 ## Cool projects
 
 ### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
