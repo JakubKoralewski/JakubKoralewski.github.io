@@ -6,6 +6,8 @@ Chrome Extension to (Box) Select multiple Google Calendar events. You can select
 
 #### Technical info:
 WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Built using TypeScript, Webpack with some SASS (SCSS).
+
+&nbsp;
 <hr/>
 &nbsp;
 
@@ -15,6 +17,8 @@ Records mouse movement to a file. Use with OBS Studio as an external Python scri
 
 #### Technical info:
 Python, ExtendScript for After Effect's script (basically JavaScript).
+
+&nbsp;
 <hr/>
 &nbsp;
 
@@ -27,6 +31,8 @@ Here's the website with working backend on Netlify: https://dziennik.netlify.com
 #### Technical info:
 
 Vue.js, Vuex, TypeScript, vue-i18n (both Polish and English language versions), SCSS 
+
+&nbsp;
 <hr/>
 &nbsp;
 
@@ -34,8 +40,8 @@ Vue.js, Vuex, TypeScript, vue-i18n (both Polish and English language versions), 
 
 - [How to setup e-mail using a custom domain for free (Github Student Developer Pack + Namecheap + SendGrid + Gmail)](./blog/free-email.md)
 
-<hr/>
 &nbsp;
+<hr/>
 &nbsp;
 
 # Contact me
