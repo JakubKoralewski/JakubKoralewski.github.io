@@ -1,7 +1,3 @@
----
-author: Jakub Koralewski
----
-
 # Cool projects
 
 ### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
