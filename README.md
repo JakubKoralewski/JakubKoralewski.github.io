@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## Jakub Koralewski
 
-You can use the [editor on GitHub](https://github.com/JakubKoralewski/JakubKoralewski.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[My GitHub profile](https://github.com/JakubKoralewski)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Cool projects
 
-### Markdown
+### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Chrome Extension to (Box) Select multiple Google Calendar events. You can select, drag, delete, change color and duration.
 
-```markdown
-Syntax highlighted code block
+#### Technical info:
+WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Built using TypeScript, Webpack with some SASS (SCSS).
 
-# Header 1
-## Header 2
-### Header 3
+### [cursor-recorder](https://github.com/JakubKoralewski/cursor-recorder)
 
-- Bulleted
-- List
+Records mouse movement to a file. Use with OBS Studio as an external Python script or using the standalone Python script. Use the After Effects script to import the generated cursor movement data.
 
-1. Numbered
-2. List
+#### Technical info:
+Python, ExtendScript for After Effect's script (basically JavaScript).
 
-**Bold** and _Italic_ and `Code` text
+### [dziennik_frontend](https://github.com/JakubKoralewski/dziennik_frontend)
 
-[Link](url) and ![Image](src)
-```
+"Harwart" online student register - Single Page Application.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Here's the website with working backend on Netlify: https://dziennik.netlify.com/logged-in
 
-### Jekyll Themes
+#### Technical info:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JakubKoralewski/JakubKoralewski.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Vue.js, Vuex, TypeScript, vue-i18n, scss | [PL] & [EN] locale support
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Kontakt
+
+e-mail: kontakt@jcubed.me
