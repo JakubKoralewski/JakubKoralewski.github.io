@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/JakubKoralewski/google-calendar-box-select/master/docs/img/box-select-icon.png" width="100" align="left" />
 
-### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
+### <a href="https://github.com/JakubKoralewski/google-calendar-box-select" target="_blank">google-calendar-box-select</a>
 
 Chrome Extension to (Box) Select multiple Google Calendar events. You can select, drag, delete, change color and duration.
 
