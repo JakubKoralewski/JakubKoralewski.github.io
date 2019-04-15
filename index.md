@@ -14,7 +14,7 @@ WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Bu
 <hr/>
 &nbsp;
 
-<img src="https://github.com/JakubKoralewski/cursor-recorder/blob/master/docs/img/logo.png" width="100" align="left" />
+<img src="https://raw.githubusercontent.com/JakubKoralewski/cursor-recorder/master/docs/img/logo.png" width="100" align="left" />
 
 ### [cursor-recorder](https://github.com/JakubKoralewski/cursor-recorder)
 
