@@ -6,3 +6,17 @@
 p img {
     margin-right: 2vw;
 }
+
+a {
+    text-decoration: none;
+    
+    &target[_blank] {
+        &::after {
+            font-family: "Font Awesome 5 Free";
+            content: "\f35d";
+            font-weight: 900;
+            margin-left: 1vw;
+            vertical-align: middle;
+        }
+    }
+}
