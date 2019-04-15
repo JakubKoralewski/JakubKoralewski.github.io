@@ -16,7 +16,7 @@ WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Bu
 
 <img src="https://raw.githubusercontent.com/JakubKoralewski/cursor-recorder/master/docs/img/logo.png" width="100" align="left" />
 
-### [cursor-recorder](https://github.com/JakubKoralewski/cursor-recorder)
+### <a href="https://github.com/JakubKoralewski/cursor-recorder" target="_blank">cursor-recorder</a>
 
 Records mouse movement to a file. Use with OBS Studio as an external Python script or using the standalone Python script. Use the After Effects script to import the generated cursor movement data.
 
@@ -30,7 +30,7 @@ Python, ExtendScript for After Effect's script (basically JavaScript).
 
 <img src="https://github.com/vuejs/art/blob/master/logo.png?raw=true" width="100" align="left" />
 
-### [dziennik_frontend](https://github.com/JakubKoralewski/dziennik_frontend)
+### <a href="https://github.com/JakubKoralewski/dziennik_frontend" target="_blank" >dziennik_frontend</a>
 
 "Harwart" online student register - Single Page Application. Here's the website with a working backend hosted on Netlify: [https://dziennik.netlify.com/logged-in](https://dziennik.netlify.com/logged-in)
 
