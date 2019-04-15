@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ page.title }} - jcubed.me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jakub Koralewski Github Website" />
+    {% if page.summary %}
+      <meta name="description" content="{{ page.summary | escape }}">
+    {% endif %}
+    {%if page.tags %}
+      <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+    {%endif %}
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="Jakub Koralewski, github, vue, spa,
             dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 

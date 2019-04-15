@@ -1,3 +1,9 @@
+---
+title: Jakub Koralewski - jcubed.me
+tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
+summary: Jakub Koralewski is a hobbist programmer. This site aims to present some of his web development and Python script projects and give some info to contact him. 
+---
+
 # Cool projects
 
 <img src="https://raw.githubusercontent.com/JakubKoralewski/google-calendar-box-select/master/docs/img/box-select-icon.png" width="100" align="left" />
