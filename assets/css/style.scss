@@ -10,13 +10,14 @@ p img {
 a {
     text-decoration: none;
     
-    &target[_blank] {
+    &[target="_blank"] {
         &::after {
             font-family: "Font Awesome 5 Free";
             content: "\f35d";
             font-weight: 900;
+            font-size: 0.8rem;
             margin-left: 1vw;
-            vertical-align: middle;
+            vertical-align: text-bottom;
         }
     }
 }
