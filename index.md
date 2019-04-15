@@ -1,8 +1,11 @@
 # Cool projects
 
+<img src="https://raw.githubusercontent.com/JakubKoralewski/google-calendar-box-select/master/docs/img/box-select-icon.png" width="100" align="left" />
+
 ### [google-calendar-box-select](https://github.com/JakubKoralewski/google-calendar-box-select)
 
 Chrome Extension to (Box) Select multiple Google Calendar events. You can select, drag, delete, change color and duration.
+
 
 #### Technical info:
 WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Built using TypeScript, Webpack with some SASS (SCSS).
@@ -11,9 +14,12 @@ WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Bu
 <hr/>
 &nbsp;
 
+<img src="https://github.com/JakubKoralewski/cursor-recorder/blob/master/docs/img/logo.png" width="100" align="left" />
+
 ### [cursor-recorder](https://github.com/JakubKoralewski/cursor-recorder)
 
 Records mouse movement to a file. Use with OBS Studio as an external Python script or using the standalone Python script. Use the After Effects script to import the generated cursor movement data.
+
 
 #### Technical info:
 Python, ExtendScript for After Effect's script (basically JavaScript).
@@ -22,11 +28,11 @@ Python, ExtendScript for After Effect's script (basically JavaScript).
 <hr/>
 &nbsp;
 
+<img src="https://github.com/vuejs/art/blob/master/logo.png?raw=true" width="100" align="left" />
+
 ### [dziennik_frontend](https://github.com/JakubKoralewski/dziennik_frontend)
 
-"Harwart" online student register - Single Page Application.
-
-Here's the website with a working backend hosted on Netlify: [https://dziennik.netlify.com/logged-in](https://dziennik.netlify.com/logged-in)
+"Harwart" online student register - Single Page Application. Here's the website with a working backend hosted on Netlify: [https://dziennik.netlify.com/logged-in](https://dziennik.netlify.com/logged-in)
 
 #### Technical info:
 
