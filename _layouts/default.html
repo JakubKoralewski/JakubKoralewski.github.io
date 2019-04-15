@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jakub Koralewski - jcubed.me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Jakub Koralewski Github Website" />
+    {% if page.summary %}
+      <meta name="description" content="{{ page.summary | escape }}">
+    {% endif %}
+    {%if page.tags %}
+      <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+    {%endif %}
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="Jakub Koralewski, github, vue, spa,
             dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
@@ -15,6 +20,7 @@
     <link rel="icon" type="image/png" href="{{ '/favicons/favicon32.png' | relative_url }}" sizes="32x32">  
     <link rel="icon" type="image/png" href="{{ '/favicons/favicon96.png' | relative_url }}" sizes="96x96">  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 {% seo %}
   </head>
 
