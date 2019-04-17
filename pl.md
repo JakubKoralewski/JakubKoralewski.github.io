@@ -3,7 +3,7 @@ title: Jakub Koralewski - jcubed.me
 tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
 htmldesc: Jakub Koralewski to programista. Ta strona ma na celu pokazanie jego portfolio webowe, Pythonowe i info do kontaktu.
 summary: >-
-    Zajmuje się programowaniem. Robię stronki korzystając z nowoczesnych frameworków typu Vue oraz dziwne boty i skrypty w Pythonie. W planach mam nauczenie się backendu. W wolnym czasie lubię udawać, że jestem biznesmenem. Skontaktuj się: kontakt@jcubed.me
+    Zajmuje się programowaniem. Robię stronki korzystając z nowoczesnych frameworków typu Vue oraz dziwne boty i skrypty w Pythonie. W planach mam nauczenie się backendu. W wolnym czasie lubię udawać, że jestem biznesmenem. Skontaktuj się ze mną kontakt@jcubed.me!
 view_on_github: Obczaj profil na GitHubie
 other_lang_path: ..
 other_lang: gb
