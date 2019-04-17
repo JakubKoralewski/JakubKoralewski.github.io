@@ -67,7 +67,8 @@ Vue.js, Vuex, TypeScript, vue-i18n (wersje polsko i angielsko językowe), SCSS
 
 # Skontaktuj się
 
-kontakt@jcubed.me
+<a href="mailto:kontakt@jcubed.me?subject=Witam%2C+tam%21&body=Jeste%C5%9B+niesamowity%21+Jak+to+zrobi%C5%82e%C5%9B%3F">kontakt@jcubed.me</a>
+
 
 
 
