@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to setup e-mail using a custom domain for free (Github Student Developer Pack + Namecheap + SendGrid + Gmail)
+title: How to setup e-mail using a custom domain for free
+subtitle: (Github Student Developer Pack + Namecheap + SendGrid + Gmail)
 tags: [github, namecheap, sengrid, gmail, free e-mail, jakub, koralewski]
 summary: This guide will let you send and receive e-mails from a custom domain for free
 ---
