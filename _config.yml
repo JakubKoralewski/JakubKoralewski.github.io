@@ -2,3 +2,4 @@ theme: jekyll-theme-hacker
 author: Jakub Koralewski
 plugins:
   - jekyll-redirect-from
+exclude: ['.history']
