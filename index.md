@@ -3,7 +3,7 @@ title: Jakub Koralewski - jcubed.me
 tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
 htmldesc: Jakub Koralewski is a hobbist programmer. This site aims to present some of his web development and Python script projects and give some info to contact him.
 summary: >-
-    I am a hobbist programmer located in Poland. I (try to) develop: cool websites using modern frameworks like Vue, weird Python bots and scripts. My next goal is to learn to develop backends. In my free time I like to pretend that I own a company. Contact me at contact@jcubed.me."
+    I am a hobbist programmer located in Poland. I (try to) develop: cool websites using modern frameworks like Vue, weird Python bots and scripts. My next goal is to learn to develop backends. In my free time I like to pretend that I own a company. Contact me at contact@jcubed.me.
 view_on_github: View my profile on GitHub
 other_lang: pl
 other_lang_cta: Zmień na język polski

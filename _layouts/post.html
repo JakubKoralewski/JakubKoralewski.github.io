@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }} - jcubed.me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.summary %}
-      <meta name="description" content="{{ page.summary | escape }}">
-    {% endif %}
-    {%if page.tags %}
-      <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-    {%endif %}
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="Jakub Koralewski, github, vue, spa,
-            dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
-            gh-pages" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ '/favicons/favicon.png' | relative_url }}" sizes="16x16">  
-    <link rel="icon" type="image/png" href="{{ '/favicons/favicon32.png' | relative_url }}" sizes="32x32">  
-    <link rel="icon" type="image/png" href="{{ '/favicons/favicon96.png' | relative_url }}" sizes="96x96"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{{ page.title }} - jcubed.me</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% if page.summary %}
+			<meta name="description" content="{{ page.summary | escape }}">
+		{% endif %}
+		{%if page.tags %}
+			<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+		{%endif %}
+		<meta name="robots" content="index, follow" />
+		<meta name="keywords" content="Jakub Koralewski, github, vue, spa,
+						dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
+						gh-pages" />
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<link rel="icon" type="image/png" href="{{ '/favicons/favicon.png' | relative_url }}" sizes="16x16">  
+		<link rel="icon" type="image/png" href="{{ '/favicons/favicon32.png' | relative_url }}" sizes="32x32">  
+		<link rel="icon" type="image/png" href="{{ '/favicons/favicon96.png' | relative_url }}" sizes="96x96"> 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 {% seo %}
-  </head>
+	</head>
 
-  <body>
+	<body>
 
-    <header>
-      <div class="container">
-        <h2>J³akub Koralewski</h2>
+		<header>
+			<div class="container">
+				<h2>J³akub Koralewski</h2>
 
-        <section id="downloads">
-          <a href="https://github.com/JakubKoralewski" class="btn btn-github" target="_blank"><span class="icon"></span>View my profile on GitHub</a>
-          <a href="https://jcubed.me" class="btn btn-github"><span class="icon"></span>Home</a>
-        </section>
-        
-        <section>
-          <h1>
-            {{ page.title }}
-          </h1>
-          <h2>
-            {{ page.subtitle }}
-          </h2>
-          <p class="view">by {{ page.author | default: site.author }} {{page.date}}</p>
-        </section>
-      </div>
-    </header>
+				<section id="downloads">
+					<a href="{{site.url}}" class="btn"><i class="fas fa-home"></i>jcubed.me</a>
+					<a href="https://github.com/JakubKoralewski" class="btn btn-github" target="_blank">
+						<img src="https://avatars1.githubusercontent.com/u/43069023" width="16px">
+						View my profile on GitHub
+					</a>
+				</section>
+				
+				<section>
+					<h1>
+						{{ page.title }}
+					</h1>
+					<h2>
+						{{ page.subtitle }}
+					</h2>
+					<p class="view">by {{ page.author | default: site.author }} {{page.date}}</p>
+				</section>
+			</div>
+		</header>
 
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-    </div>
-  </body>
+		<div class="container">
+			<section id="main_content">
+				{{ content }}
+			</section>
+		</div>
+	</body>
 </html>
