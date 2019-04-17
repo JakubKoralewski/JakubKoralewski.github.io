@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jakub Koralewski - jcubed.me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.summary %}
-      <meta name="description" content="{{ page.summary | escape }}">
-    {% endif %}
-    {%if page.tags %}
-      <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-    {%endif %}
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="Jakub Koralewski, github, vue, spa,
-            dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
-            gh-pages" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ '/favicons/favicon.png' | relative_url }}" sizes="16x16">  
-    <link rel="icon" type="image/png" href="{{ '/favicons/favicon32.png' | relative_url }}" sizes="32x32">  
-    <link rel="icon" type="image/png" href="{{ '/favicons/favicon96.png' | relative_url }}" sizes="96x96">  
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Jakub Koralewski - jcubed.me</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% if page.summary %}
+			<meta name="description" content="{{ page.summary | escape }}">
+		{% endif %}
+		{%if page.tags %}
+			<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+		{%endif %}
+		<meta name="robots" content="index, follow" />
+		<meta name="keywords" content="Jakub Koralewski, github, vue, spa,
+						dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
+						gh-pages" />
+		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<link rel="icon" type="image/png" href="{{ '/favicons/favicon.png' | relative_url }}" sizes="16x16">  
+		<link rel="icon" type="image/png" href="{{ '/favicons/favicon32.png' | relative_url }}" sizes="32x32">  
+		<link rel="icon" type="image/png" href="{{ '/favicons/favicon96.png' | relative_url }}" sizes="96x96">  
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 {% seo %}
-  </head>
+	</head>
 
-  <body>
+	<body>
 
-    <header>
-      <div class="container">
-        <h1>J³akub Koralewski</h1>
-        &nbsp; 
-        <h2>I am a hobbist programmer located in Poland. I (try to) develop: cool websites using modern frameworks like Vue, weird Python bots and scripts. My next goal is to learn to develop backends. In my free time I like to pretend that I own a company. Contact me at contact@jcubed.me.</h2>
+		<header>
+			<div class="container">
+				<h1>J³akub Koralewski</h1>
+				&nbsp; 
+				<h2>{{page.summary}}</h2>
 
-        <section id="downloads">
-          <a href="https://github.com/JakubKoralewski" class="btn btn-github" target="_blank"><span class="icon"></span>View my profile on GitHub</a>
-        </section>
-      </div>
-    </header>
+				<section id="downloads">
+					<a href="https://github.com/JakubKoralewski" class="btn btn-github" target="_blank">
+						<span class="icon"></span>
+						{{page.view_on_github}}
+					</a>
 
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-    </div>
-  </body>
+					<a href="{{ page.other_lang_path | default: page.other_lang | relative_url }}" class="btn">
+						<span class="icon">
+							<img src="https://www.countryflags.io/{{page.other_lang | default: page.other_lang_cta}}/flat/64.png">	
+						</span>
+						{{page.other_lang_cta}}
+				</a>
+				</section>
+			</div>
+		</header>
+
+		<div class="container">
+			<section id="main_content">
+				{{ content }}
+			</section>
+		</div>
+	</body>
 </html>
