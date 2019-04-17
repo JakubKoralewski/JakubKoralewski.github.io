@@ -10,8 +10,9 @@ other_lang_cta: Zmień na język polski
 ---
 
 # Cool projects
+*Titles of the projects are links to the repositories on GitHub!*{:.small}
 
-*Titles of the projects are links to the repositories on GitHub!*
+&nbsp;
 
 <img src="https://raw.githubusercontent.com/JakubKoralewski/google-calendar-box-select/master/docs/img/box-select-icon.png" width="100" align="left" />
 
