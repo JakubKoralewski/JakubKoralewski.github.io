@@ -21,3 +21,14 @@ a {
         }
     }
 }
+
+header h1 {
+    margin: 0px;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        left: -60px;
+        top: 4px;
+    }
+}
