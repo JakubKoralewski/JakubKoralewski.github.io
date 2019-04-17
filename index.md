@@ -66,5 +66,5 @@ Vue.js, Vuex, TypeScript, vue-i18n (both Polish and English language versions), 
 
 # Contact me
 
-contact@jcubed.me
+<a href="mailto:contact@jcubed.me?subject=Hello%2C+there%21&body=How+are+you+so+amazing%3F">contact@jcubed.me</a>
 
