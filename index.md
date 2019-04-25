@@ -41,9 +41,9 @@ other_lang_cta: Zmień na język polski
 
 {% endfor %}
 
-## "Blog":
+<h2 itemscope itemtype="https://schema.org/Blog"> "Blog": </h2>
 
-- [How to setup e-mail using a custom domain for free (Github Student Developer Pack + Namecheap + SendGrid + Gmail)](./blog/free-email.md)
+- [How to setup e-mail using a custom domain for free (Github Student Developer Pack + Namecheap + SendGrid + Gmail)](./blog/free-email.md){:itemscope="" itemtype="https://schema.org/blogPost"}
 
 &nbsp;
 <hr/>
