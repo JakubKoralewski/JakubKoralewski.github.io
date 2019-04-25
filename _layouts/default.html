@@ -15,13 +15,87 @@
 		<meta name="keywords" content="Jakub Koralewski, github, vue, spa,
 						dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
 						gh-pages" />
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org/",
+				"@type": "Person",
+				"name": "Jakub Koralewski",
+				"author": "Jakub Koralewski",
+				"email": "contact@jcubed.me",
+				"knowsLanguage": "en, pl",
+				"knowsAbout": "python, javascript, typescript, vue, extendscript, webpack, rust",
+				"memberOf": "jcubed",
+				"nationality": {
+					"@type": "Country",
+					"name": "Poland",
+					"image": "https://www.countryflags.io/pl/flat/64.png"
+				}
+				"description": "{{ page.summary | escape }}",
+				"affiliation": {
+					"@type": "Organization",
+					"url": "https://jcubed.me",
+					"contactPoint" : [
+						{ 
+							"@type": "ContactPoint",
+							"email": "contact@jcubed.me",
+							"contactType" : "contact",
+							"contactOption" : "TollFree",
+							"availableLanguage": {
+								"@type": "Language",
+								"name": "English",
+								"alternateName": "en"
+							}
+						},
+						{ 
+							"@type": "ContactPoint",
+							"email": "kontakt@jcubed.me",
+							"contactType" : "contact",
+							"contactOption" : "TollFree",
+							"availableLanguage": {
+								"@type": "Language",
+								"name": "Polish",
+								"alternateName": "pl"
+							}
+						}
+					],
+					"workPerformed": [
+						{% for project_hash in site.data.projects %}
+						{% assign project = project_hash[1] %} 	
+							{
+								"@type": "CreativeWork",
+								"name": "{{project.title}}",
+								"sameAs": "{{project.links.github}}",
+								"contributor": "Jakub Koralewski",
+								"copyrightHolder": "Jakub Koralewski",
+								"author": "Jakub Koralewski",
+								"about": "{{project.en.description | escape | newline_to_br | strip_newlines | replace: '<br />', ' '}}",
+								"keywords": "{{project.en.technical_info}}",
+								"license": "{{project.links.license}}",
+								"sdLicense": "{{project.links.license}}",
+								"discussionUrl": "{{project.links.github}}/issues",
+								"thumbnailUrl": "{{project.img}}",
+								"video": "{{project.gif | default: project.video}}"
+							}{% if forloop.last == false %},{% endif %}
+						{% endfor %}
+					]
+				}
+			}
+		</script>
 		<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 		<link rel="icon" type="image/png" href="{{ '/favicons/favicon.png' | relative_url }}" sizes="16x16">  
 		<link rel="icon" type="image/png" href="{{ '/favicons/favicon32.png' | relative_url }}" sizes="32x32">  
 		<link rel="icon" type="image/png" href="{{ '/favicons/favicon96.png' | relative_url }}" sizes="96x96">  
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-{% seo %}
+		<title>Jakub Koralewski - j³cubed.me</title>
+		<meta property="og:title" content="Jakub Koralewski - jcubed.me">
+		<meta name="author" content="Jakub Koralewski">
+		<meta property="og:locale" content="{{site.lang | default: "en"}}">
+		<link rel="canonical" href="https://jcubed.me">
+		<meta property="og:url" content="https://jcubed.me">
+		<meta property="og:url" content="https://JakubKoralewski.github.io">
+		<meta property="og:url" content="https://github.com/JakubKoralewski">
+		<meta property="og:url" content="https://jakubkoralewski.pl">
+		<meta property="og:site_name" content="JakubKoralewski.github.io">
 	</head>
 
 	<body>

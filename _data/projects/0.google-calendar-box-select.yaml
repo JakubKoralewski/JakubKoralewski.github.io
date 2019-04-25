@@ -1,0 +1,22 @@
+title: Google Calendar Box Select
+en:
+  description:
+    Chrome Extension to (Box) Select multiple Google Calendar events. You can select, drag, delete, change color and duration.
+  technical_info:
+    WebExtension. Working in Chrome, untested in Firefox, Opera and the new Edge. Built using TypeScript, Webpack with some SASS (SCSS).
+pl:
+  description:
+    Rozszerzenie przeglądarkowe do zaznaczania wielu wydarzeń w Kalendarzu Google. 
+    Możesz zaznaczać, przesuwać, usuwać, zmieniać kolor i długość zaznaczonych elementów jednym działaniem.
+  technical_info:
+    Rozszerzenie przeglądarkowe. Działa w Chrome. 
+    Nieprzetestowane w Firefoxie, Operze i nowym Edge'u. 
+    Zbudowane w TypeScriptcie, Webpacku i trochę SASS.
+
+links:
+  github: https://github.com/JakubKoralewski/google-calendar-box-select
+  license: https://github.com/JakubKoralewski/google-calendar-box-select/blob/master/LICENSE
+img:
+  https://raw.githubusercontent.com/JakubKoralewski/google-calendar-box-select/master/docs/img/box-select-icon.png
+gif:
+  https://github.com/JakubKoralewski/google-calendar-box-select/raw/master/docs/img/demo.gif

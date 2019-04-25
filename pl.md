@@ -7,6 +7,7 @@ summary: >-
 view_on_github: Obczaj profil na GitHubie
 other_lang_path: ..
 other_lang: gb
+lang: pl
 other_lang_cta: Change to English
 ---
 
@@ -15,47 +16,31 @@ other_lang_cta: Change to English
 
 &nbsp;
 
-<img src="https://raw.githubusercontent.com/JakubKoralewski/google-calendar-box-select/master/docs/img/box-select-icon.png" width="100" align="left" />
-
-### <a href="https://github.com/JakubKoralewski/google-calendar-box-select" target="_blank">google-calendar-box-select</a>
-
-Rozszerzenie przeglądarkowe do zaznaczania wielu wydarzeń w Kalendarzu Google. Możesz zaznaczać, przesuwać, usuwać, zmieniać kolor i długość zaznaczonych elementów jednym działaniem.
-
-#### Informacje techniczne:
-WebExtension. Działa w Chrome. Nieprzetestowane w Firefoxie, Operze i nowym Edge'u. Zbudowane w TypeScriptcie, Webpacku + trochę SASSa (notacja scss).
-
-&nbsp;
-<hr/>
-&nbsp;
-
-<img src="https://raw.githubusercontent.com/JakubKoralewski/cursor-recorder/master/docs/img/logo.png" width="100" align="left" />
-
-### <a href="https://github.com/JakubKoralewski/cursor-recorder" target="_blank">cursor-recorder</a>
-
-Zapisuje ruch kursora do pliku. Możesz usprawnić synchronizację zapisu nagrywając w OBSie korzystając z zewnętrznego skryptu lub jeśli wolisz manualnie, możesz użyć wersji niezależnej. Następnie zaimportuj w After Effectsie używając odpowiedniego dla niego skryptu. Stworzony zostaje null, który reprezentuje ruch kursora. Możesz tworzyć jakie efekty tylko chcesz. Zaprezentowane są przykłady w README repozytorium.
+{% for project_hash in site.data.projects %}
+{% assign project = project_hash[1] %} 
 
 
-#### Informacje techniczne:
-Python, ExtendScript dla After Effectsa (praktycznie JavaScript).
+<img src="{{project.img}}" width="100" align="left" />
+
+### <a href="{{project.links.github}}" target="_blank"> {{project.title}} </a>
+
+{{project.pl.description}}
+
+{% if project.gif %} 
+
+![]({{project.gif}}){:.video}
+
+{% endif %}
+
+#### Technical info:
+  
+{{project.pl.technical_info}}
 
 &nbsp;
 <hr/>
 &nbsp;
 
-<img src="https://github.com/vuejs/art/blob/master/logo.png?raw=true" width="100" align="left" />
-
-### <a href="https://github.com/JakubKoralewski/dziennik_frontend" target="_blank" >dziennik_frontend</a>
-
-"Harwart" e-dziennik - aplikacja webowa. Link do strony z działającym serwerem i bazą danych: [https://dziennik.netlify.com/zalogowany](https://dziennik.netlify.com/zalogowany)
-
-
-#### Informacje techniczne:
-
-Vue.js, Vuex, TypeScript, vue-i18n (wersje polsko i angielsko językowe), SCSS 
-
-&nbsp;
-<hr/>
-&nbsp;
+{% endfor %}
 
 ## "Blog":
 
