@@ -3,3 +3,4 @@ author: Jakub Koralewski
 plugins:
   - jekyll-redirect-from
 exclude: ['.history']
+emptyArray: []
