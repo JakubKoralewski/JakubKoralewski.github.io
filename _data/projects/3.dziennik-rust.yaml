@@ -21,7 +21,6 @@ pl:
 
 links:
   github: https://github.com/JakubKoralewski/dziennik-rust
-  license: https://github.com/JakubKoralewski/dziennik-rust/blob/master/LICENSE
 
 img:
   https://rustacean.net/assets/rustacean-orig-noshadow.png
