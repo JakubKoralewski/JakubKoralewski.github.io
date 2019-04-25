@@ -76,8 +76,10 @@
 								"license": "{{project.links.github}}/blob/master/LICENSE",
 								"sdLicense": "{{project.links.github}}/blob/master/LICENSE",
 								"discussionUrl": "{{project.links.github}}/issues",
-								"thumbnailUrl": "{{project.img}}",
-								"video": "{{project.gif | default: project.video}}"
+								"thumbnailUrl": "{{project.img}}"
+								{% if project.gif or project.video %}
+								,"video": "{{project.gif | default: project.video}}"
+								{% endif %}
 							}{% if forloop.last == false %},{% endif %}
 						{% endfor %}
 					]
