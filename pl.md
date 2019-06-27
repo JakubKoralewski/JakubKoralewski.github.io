@@ -22,7 +22,7 @@ other_lang_cta: Change to English
 
 <img src="{{project.img}}" width="100" align="left" />
 
-### <a href="{{project.links.github}}" target="_blank"> {{project.title}} </a>
+### <a href="{{project.links.github}}" target="_blank"> {{project.pl.title | default: project.title}} </a>
 
 {{project.pl.description}}
 
