@@ -1,0 +1,32 @@
+title: Mireks - accounting firm website
+en:
+  description: |
+    A real life business accounting firm website. 
+    
+    Built using Vue, but leveraging
+    prerendering thanks to Nuxt. TypeScript using class components allows for greater maintainability
+    in the long run and type safety. The website uses Progressive Web Apps standards and contains a manifest.json.
+    Is using JSON-LD structured data and meta tags for SEO purposes.
+
+    Site is actively hosted on Netlify under this link (Polish only): [https://www.fhumireks.pl](https://www.fhumireks.pl)
+  technical_info:
+    Nuxt, Vue, TypeScript, class-component, SPA landing page, pre-rendered, real-life business website.
+pl:
+  title: Mireks - strona biura rachunkowego
+  description: |
+    Strona internetowa w użytku dla biura rachunkowego Mireks. 
+    
+    Strona stworzona przy użyciu Vue jednocześnie wykorzystując Nuxt dla pre-renderingu korzystnego dla SEO.
+    Wykorzystanie TypeScriptu i class-componentów pozwala na łatwiejszy development i type safety.
+    Projekt dostosowuje się do nowoczesnych standardów PWA i zawiera manifest.json.
+    Wykorzystuje dane strukturalne JSON-LD dla lepszych wyników w wyszukiwarkach (SEO).
+    
+    Strona jest aktywnie online, działa na Netlify pod linkiem: [https://www.fhumireks.pl](https://www.fhumireks.pl) (tylko po polsku).
+  technical_info:
+    Nuxt, Vue, TypeScript, class-component, SPA landing page, pre-rendered, prawdziwa biznesowa strona internetowa.
+
+links:
+  github: https://github.com/JakubKoralewski/mireks
+
+img:
+  https://fhumireks.pl/mireks_og.jpg

@@ -1,4 +1,4 @@
-title: Cursor Recorder
+title: Cursor Recorder - After Effects Script
 
 en:
   description: |
@@ -10,6 +10,7 @@ en:
     Python, TypeScript (`.ts`) compiled to ExtendScript (`.jsx`) for After Effects
 
 pl:
+  title: Cursor Recorder - skrypt dla After Effects
   description: |
     Zapisuje ruch kursora do pliku. 
     Łatwa synchronizacja z obrazem, dzięki skryptu do OBS Studio. 

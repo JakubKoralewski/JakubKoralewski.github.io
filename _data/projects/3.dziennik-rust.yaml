@@ -1,4 +1,4 @@
-title: Dziennik Rust
+title: Dziennik Rust - Rust backend
 en:
   description: |
     A simple CRUD REST API backend written in Rust using actix-web, Diesel and PostgreSQL.
