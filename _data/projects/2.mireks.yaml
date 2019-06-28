@@ -6,7 +6,8 @@ en:
     Built using Vue, but leveraging
     prerendering thanks to Nuxt. TypeScript using class components allows for greater maintainability
     in the long run and type safety. The website uses Progressive Web Apps standards and contains a manifest.json.
-    Is using JSON-LD structured data and meta tags for SEO purposes.
+    Is using JSON-LD structured data and meta tags for SEO purposes. Uses Sentry error logging with source mapping capabilities
+    as well as Google Analytics tracking searches and clicks.
 
     Site is actively hosted on Netlify under this link (Polish only): [https://www.fhumireks.pl](https://www.fhumireks.pl)
   technical_info:
@@ -16,10 +17,12 @@ pl:
   description: |
     Strona internetowa w użytku dla biura rachunkowego Mireks. 
     
-    Strona stworzona przy użyciu Vue jednocześnie wykorzystując Nuxt dla pre-renderingu korzystnego dla SEO.
-    Wykorzystanie TypeScriptu i class-componentów pozwala na łatwiejszy development i type safety.
+    Strona stworzona przy użyciu Vue oraz Nuxt dla pre-renderingu korzystnego dla pozycjonowania strony.
+    Wykorzystanie TypeScriptu i class-componentów pozwala na streamlined development i type safety.
     Projekt dostosowuje się do nowoczesnych standardów PWA i zawiera manifest.json.
     Wykorzystuje dane strukturalne JSON-LD dla lepszych wyników w wyszukiwarkach (SEO).
+    Wysyła błędy do Sentry wraz z oryginalnym źródłem kodu oraz wykorzystuje Google Analytics do 
+    śledzenia kliknięć, wpisów itp.
     
     Strona jest aktywnie online, działa na Netlify pod linkiem: [https://www.fhumireks.pl](https://www.fhumireks.pl) (tylko po polsku).
   technical_info:
