@@ -5,6 +5,7 @@ htmldesc: Jakub Koralewski to programista. Ta strona ma na celu pokazanie jego p
 summary: >-
     Zajmuje się programowaniem. Robię stronki korzystając z nowoczesnych frameworków typu Vue oraz dziwne boty i skrypty w Pythonie. W planach mam nauczenie się backendu. W wolnym czasie lubię udawać, że jestem biznesmenem. Skontaktuj się ze mną kontakt@jcubed.me!
 view_on_github: Obczaj profil na GitHubie
+view_on_linkedin: Albo profil na LinkedIn
 other_lang_path: ..
 other_lang: gb
 lang: pl

@@ -5,6 +5,7 @@ htmldesc: Jakub Koralewski is a hobbist programmer. This site aims to present so
 summary: >-
     I am a hobbist programmer located in Poland. I (try to) develop: cool websites using modern frameworks like Vue, weird Python bots and scripts. My next goal is to learn to develop backends. In my free time I like to pretend that I own a company. Contact me at contact@jcubed.me.
 view_on_github: View my profile on GitHub
+view_on_linkedin: Or my profile on LinkedIn
 other_lang: pl
 lang: en
 other_lang_cta: Zmień na język polski
