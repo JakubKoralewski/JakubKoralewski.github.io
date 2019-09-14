@@ -13,7 +13,7 @@
 	<meta name="msvalidate.01" content="D2A9986B95DA0E75CDED1FA77724388A" />
 
 	{% if page.summary %}
-	<meta name="description" content="{{ page.summary | escape }}">
+	<meta name="description" content="{%for paragraph in page.summary%}{{ paragraph| escape }} {%endfor%}">
 	{% endif %}
 	{%if page.tags %}
 	<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}" />
@@ -37,7 +37,7 @@
 				"name": "Poland",
 				"image": "https://www.countryflags.io/pl/flat/64.png"
 			}
-			"description": "{{ page.summary | escape }}",
+			"description": "{%for paragraph in page.summary%}{{ paragraph | escape }} {%endfor%}",
 			"affiliation": {
 				"@type": "Organization",
 				"url": "https://jcubed.me",
@@ -127,7 +127,13 @@
 		<div class="container">
 			<h1>J³akub Koralewski</h1>
 			&nbsp;
-			<h2>{{page.summary}}</h2>
+			<div>
+				{% for paragraph in page.summary%}
+				<h2>
+					{{paragraph}}
+				</h2>
+				{% endfor %}
+			</div>
 
 			<section id="downloads">
 				<a href="{{ page.other_lang_path | default: page.other_lang | relative_url }}" class="btn">

@@ -6,7 +6,7 @@
 		<title>{{ page.title }} - jcubed.me</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		{% if page.summary %}
-			<meta name="description" content="{{ page.summary | escape }}">
+		<meta name="description" content="{%for paragraph in page.summary%}{{ paragraph | escape }} {%endfor%}">
 		{% endif %}
 		{%if page.tags %}
 			<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>

@@ -2,8 +2,12 @@
 title: Jakub Koralewski - jcubed.me
 tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
 htmldesc: Jakub Koralewski to programista. Ta strona ma na celu pokazanie jego portfolio webowe, Pythonowe i info do kontaktu.
-summary: >-
-    Zajmuje się programowaniem. Robię stronki korzystając z nowoczesnych frameworków typu Vue oraz dziwne boty i skrypty w Pythonie. W planach mam nauczenie się backendu. W wolnym czasie lubię udawać, że jestem biznesmenem. Skontaktuj się ze mną kontakt@jcubed.me!
+summary:
+    - "Jestem aspirującym programistą z Polski. Robię stronki korzystając z frameworków typu Vue oraz dziwne boty i skrypty w Pythonie. W wolnym czasie lubię udawać, że jestem biznesmenem:"
+    
+    - "Po ogromnym rodzaju zdobytych doświadczeń tu, w jcubed, zauważyliśmy, że korzystniej jest nanostrategicznie reintermediować niż całkowicie pochłonąć się w intuicyjny nano-mikro development. Tak naprawdę to jcubed stworzył pojęcie \"użytkownika\". Szczycimy się nie tylko swoim zapasem popularnych, intuicyjnych funkcji, ale prostą administracją i szybkim supportem. Stosujemy przysłowie \"Spróbuj włączyć i wyłączyć\" nie tylko do kolaboracji ale do naszego zapału do optymizacji. Stosujemy także zasady DRY, KISS, FTBFS, FOAF, SOAP, WYSIAYG, WYSIWYG, WYSIWYM, WYWIWYG, YAFIYGI, YMMV w naszej transparentej inkubacji Voodoo programming opierającej się na architekturze klient-serwer używającej SOA REST Big Data on-the-cloud Agile do umożliwienia uczenia maszynowego w IoT. Bo skoro jeśli rewolucjonizujesz przekonująco możliwe, że będziesz musiał udoskonalać iteracyjnie! A jeśli kolaborujesz współcałościowo możesz też musieć wdrażać hożo. Wyobraź sobie połączenie HTMLa i COBOLa. Tak zobrazujemy pojęcie dystrybucji wielokanałowej. Zauważyliśmy, że jeśli syntezujesz globalnie to będziesz architektował superwirusowo."
+    
+    - "Skontaktuj się ze mną kontakt@jcubed.me!"
 view_on_github: Obczaj profil na GitHubie
 view_on_linkedin: Albo profil na LinkedIn
 other_lang_path: ..
