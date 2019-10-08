@@ -1,13 +1,12 @@
-title: Cursor Recorder - After Effects Script
+title: Cursor Recorder - After Effects & OBS Scripts
 
 en:
   description: |
     Records mouse movement to a file.
     It consists of two scripts. 
     OBS Studio as an external Python script or using the standalone Python script. 
-    Use the After Effects script to import the generated cursor movement.
-  technical_info:
-    Python, TypeScript (`.ts`) compiled to ExtendScript (`.jsx`) for After Effects
+    Use the After Effects script to import the generated cursor movement data.
+  technical_info: Python, TypeScript (`.ts`) compiled to ExtendScript (`.jsx`) for After Effects
 
 pl:
   title: Cursor Recorder - skrypt dla After Effects
@@ -18,11 +17,9 @@ pl:
     Zaimportowanie do After Effectsa umożliwia skrypt `Cursor Recorder for After Effects.jsx`.
     Stworzony zostaje animowany null reprezentujący ruch kursora. Możesz tworzyć jakie efekty tylko chcesz. 
     Przykłady są w README.md repozytorium.
-  technical_info:
-    Python, TypeScript kompilowany do ExtendScripta
+  technical_info: Python, TypeScript kompilowany do ExtendScripta
 
 links:
   github: https://github.com/JakubKoralewski/cursor-recorder
 
-img:
-  https://raw.githubusercontent.com/JakubKoralewski/cursor-recorder/master/docs/img/logo.png
+img: https://raw.githubusercontent.com/JakubKoralewski/cursor-recorder/master/docs/img/logo.png
