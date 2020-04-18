@@ -34,6 +34,11 @@ other_lang_cta: Change to English
 ![]({{project.gif}}){:.video}
 
 {% endif %}
+{% if project.video %} 
+
+{{project.video}}
+
+{% endif %}
 
 #### Technical info:
   

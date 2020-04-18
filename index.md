@@ -35,6 +35,11 @@ other_lang_cta: Zmień na język polski
 
 {% endif %}
 
+{% if project.video %} 
+
+{{project.video}}
+
+{% endif %}
 #### Technical info:
   
 {{project.en.technical_info}}

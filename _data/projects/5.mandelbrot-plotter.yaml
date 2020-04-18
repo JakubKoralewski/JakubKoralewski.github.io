@@ -1,0 +1,26 @@
+title: Mandelbrot and Julia set plotter
+en:
+  description:
+    Mandelbrot and Julia set plotter cross-platform desktop application written in Rust as a university project.
+    Uses GPU, Vulkan shaders, implements zooming and dragging.
+    You can change between Mandelbrot, Julia and both side-by-side.
+  technical_info:
+    Rust; winit; Vulkan; wgpu-rs crate allowing to run using Vulkan, Metal or DirectX.
+    Written with GLSL fragment shaders. Real-time shader rebuild with off-thread file watching.
+    Cross-platform. Full screen and high DPI support.
+pl:
+  title: Ploter zbiorów Mandelbrota i Julii
+  description:
+    Aplikacja desktopowa napisana w języku Rust jako projekt na studiach.
+    Implementacja wykorzystuje GPU, shadery GLSL, wspiera zbliżanie i przesuwanie.
+  technical_info:
+    Rust; winit; Vulkan; skrzynia wgpu-rs pozwalająca wykorzystać backend Vulkan, Metal lub DirectX.
+    Fragment shader-y napisane w GLSL. Reagowanie na zmiany w pliku shadera i budowanie w trakcie działania aplikacji.
+    Aplikacja cross-platform-owa. Pozwala zmaksymalizować i reaguje na zmianę DPI.
+
+links:
+  github: https://github.com/JakubKoralewski/mandelbrot-wgpu-rs
+img:
+  https://repository-images.githubusercontent.com/237223783/66120f80-4391-11ea-9367-7ea84f0ddf9c
+video:
+  <div style="width:100%;height:0px;position:relative;padding-bottom:53.542%;"><iframe src="https://streamable.com/e/duzs2?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
