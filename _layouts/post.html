@@ -11,7 +11,36 @@
 		{%if page.tags %}
 			<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
 		{%endif %}
-		<meta name="robots" content="index, follow" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "NewsArticle",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "{{'' | relative_url}}"
+                },
+                "headline": "{{page.title}}",
+                "backstory": "{{page.subtitle}}",
+                "description": "{{page.description}}",
+                "image": "{{page.imagee}}",
+                "datePublished": "{{page.created}}",
+                "dateModified": "{{site.time | date_to_xml_schema}}",
+                "author": {
+                    "@type": "Person",
+                    "name": "Jakub Koralewski"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "jcubed",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "{{ '/favicons/favicon96.png' | relative_url }}"
+                    }
+                }
+            }
+        </script>
+
+        <meta name="robots" content="index, follow" />
 		<meta name="keywords" content="Jakub Koralewski, github, vue, spa,
 						dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
 						gh-pages" />
@@ -32,7 +61,8 @@
 				<section id="downloads">
 					<a href="{{site.url}}" class="btn"><i class="fas fa-home"></i>jcubed.me</a>
 					<a href="https://github.com/JakubKoralewski" class="btn btn-github" target="_blank">
-						<img src="https://avatars1.githubusercontent.com/u/43069023" width="16px">
+<!--						<img src="https://avatars1.githubusercontent.com/u/43069023" width="16px" alt="profile">-->
+                        <span class="icon"></span>
 						View my profile on GitHub
 					</a>
 				</section>
