@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% capture works %}
+{% for project_hash in site.data.projects %}
+{% assign project = project_hash[1] %}
+{
+"@type": "CreativeWork",
+"name": "{{project.title}}",
+"sameAs": "{{project.links.github}}",
+"contributor": "Jakub Koralewski",
+"copyrightHolder": "Jakub Koralewski",
+"about": "{{project.en.description | escape | newline_to_br | strip_newlines | replace: '<br />', ' '}}",
+"keywords": "{{project.en.technical_info}}",
+"license": "{{project.links.github}}/blob/master/LICENSE",
+"sdLicense": "{{project.links.github}}/blob/master/LICENSE",
+"discussionUrl": "{{project.links.github}}/issues",
+{% if project.gif or project.video %}
+"video": "{{project.gif | default: project.video | escape | strip_newlines}}",
+{% endif %}
+"thumbnailUrl": "{{project.img}}"
+}
+{% if forloop.last == false %}, {% endif %}
+{% endfor %}
+{% endcapture %}
 
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Jakub Koralewski - jcubed.me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="google-site-verification" content="APeQJwX21im2j3piFNIkbqrsr9Zf-e7zExGYWltayso" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jakub Koralewski - jcubed.me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="APeQJwX21im2j3piFNIkbqrsr9Zf-e7zExGYWltayso" />
 	<meta name="google-site-verification" content="Cq6FnCiB8y_K8qdXO86Jnq8KScpeVuNeeYX2JNbxcVw" />
 	<meta name="google-site-verification" content="9YbcAIvUCiCLoJCyKnhSavmzqwfJRMK_hSO3DUkQmiA" />
 
@@ -64,42 +86,9 @@
 						}
 					}
 				],
-				"workPerformed": [{
-					%
-					for project_hash in site.data.projects %
-				} {
-					%
-					assign project = project_hash[1] %
-				} {
-					"@type": "CreativeWork",
-					"name": "{{project.title}}",
-					"sameAs": "{{project.links.github}}",
-					"contributor": "Jakub Koralewski",
-					"copyrightHolder": "Jakub Koralewski",
-					"author": "Jakub Koralewski",
-					"about": "{{project.en.description | escape | newline_to_br | strip_newlines | replace: '<br />', ' '}}",
-					"keywords": "{{project.en.technical_info}}",
-					"license": "{{project.links.github}}/blob/master/LICENSE",
-					"sdLicense": "{{project.links.github}}/blob/master/LICENSE",
-					"discussionUrl": "{{project.links.github}}/issues",
-					"thumbnailUrl": "{{project.img}}"
-                    {
-						% if project.gif or project.video %
-					},
-					"video": "{{project.gif | default: project.video}}" {
-						%
-						endif %
-					}
-				} {
-					%
-					if forloop.last == false %
-				}, {
-					%
-					endif %
-				} {
-					%
-					endfor %
-				}]
+				"workPerformed": [
+                    {{works | strip_newlines}}
+                ]
 			}
 		}
 	</script>
