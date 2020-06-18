@@ -1,0 +1,38 @@
+title: Karnaugh Map solver/visualizer/presentation
+en:
+  description: >
+    The presentation explains how a Karnaugh Map is assembled with nice animations,
+    how to generate the rectangles for DNF, how to get the DNF, also
+    visualizes formula parse tree, visualizes rectangles with hover animations.
+    Shortly enumerates other methods and explains why Karnaugh Map method
+    of minimizing formulas is inefficient.
+
+  technical_info:
+    A Next.js/React app including a custom micro-presentation framework with slide controls, with keyboard arrows,
+    browser back/forward history movement.
+    Vannila JS, ES6, React Hooks, SVG, debouncing, Local Storage, History API, Static Site Generation,
+    framer-motion for animations, tombstone.js for formula parsing, D3.js for parse tree visualization,
+    testing with jest. Statically hosted thanks to Github Pages and Next's static site generation.
+    Uses Sentry for error logging. Undraw.co for vector images, icons from remixicon.com
+    More technical info at jcubed.me/karnaugh/6
+pl:
+  title: Wizualizacja/rozwiązanie siatki Karnaugh i prezentacja w jednym
+  description: >
+    Prezentacja (po angielsku) tłumaczy jak zbudować siatkę Karnaugh z tabelki prawda/fałsz przy użyciu
+    różnych animacji, tłumaczy jak uzyskać z siatki dysjunkcyjną postać normalną (DNF) oraz
+    jak uzyskać potrzebne do uzyskania DNFu prostokąty; także wizualizuje prostokąty SVG,
+    drzewo wyprowadzenia (parse tree) z ładnymi efektami na hover.
+    Podaje inne metody minimalizacji formuł i tłumaczy dlaczego siatka Karnaugh nie jest najefektywniejszą
+    metodą uzyskania DNF.
+  technical_info:
+    Aplikacja React/Next.js z własnym mikro-frameworkiem do tworzenia prezentacji. Zmienianie sladjów za pomocą
+    kontrolek w stronie, strzałek na klawiaturze oraz strzałkami historii w przeglądarce.
+    Vanilla JS, ES6, React Hooks, debouncing, SVG, Local Storage, History API, Static Site Generation,
+    animacje z framer-motion, analiza składniowa dzięki tombstone.js, D3.js do wizualizacji drzewa składni,
+    testowanie z jest. Hosting na Github Pages dzięki SSG Nexta. Sentry do powiadomień i wykrywania błędów.
+    Obrazki wektorowe z Undraw.co, ikonki z remixicon.com. Więcej informacji technicznych na jcubed.me/karnaugh/6
+
+links:
+  github: https://git.io/karnaugh
+img:
+  https://upload.wikimedia.org/wikipedia/commons/0/02/K-map_6%2C8%2C9%2C10%2C11%2C12%2C13%2C14_anti-race.svg
