@@ -2,20 +2,21 @@ title: Dziennik Frontend - Vue frontend
 
 en:
   description: |
-    "Harwart" online student register - Single Page Application. 
+    My first ever SPA - "Hogwarts" online student register.
+    Made for high school project. Internationalized for Polish and English.
     Here's the website with a working backend hosted on Netlify:
     [https://dziennik.netlify.com/logged-in](https://dziennik.netlify.com/logged-in)
-
   technical_info:
-    Vue.js, Vuex, TypeScript, vue-i18n (both Polish and English language versions), SCSS 
+    Vue.js; Vuex; TypeScript; vue-i18n (both Polish and English language versions); SCSS
 pl:
   description: |
-    "Harwart" dziennik elektroniczny - aplikacja webowa. 
+    Moja pierwsza SPA - "Harwart" dziennik elektroniczny - aplikacja webowa.
+    Projekt do liceum. Przetłumaczyłem także na angielski.
     Link do strony z działającym serwerem i bazą danych: 
     [https://dziennik.netlify.com/zalogowany](https://dziennik.netlify.com/zalogowany)
 
   technical_info:
-    Vue.js, Vuex, TypeScript, vue-i18n (wersje polsko i angielsko językowe), SCSS 
+    Vue.js; Vuex; TypeScript; vue-i18n (wersje polsko i angielsko językowe); SCSS
 
 links:
   github: https://github.com/JakubKoralewski/dziennik_frontend

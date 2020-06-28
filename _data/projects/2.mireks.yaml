@@ -1,32 +1,34 @@
 title: Mireks - accounting firm website
 en:
   description: |
-    A real life business accounting firm website. 
+    An accounting firm landing page website.
     
-    Built using Vue, but leveraging
-    prerendering thanks to Nuxt. TypeScript using class components allows for greater maintainability
-    in the long run and type safety. The website uses Progressive Web Apps standards and contains a manifest.json.
-    Is using JSON-LD structured data and meta tags for SEO purposes. Uses Sentry error logging with source mapping capabilities
-    as well as Google Analytics tracking searches and clicks.
+    Built using Vue with
+    prerendering thanks to Nuxt. TypeScript class components allow for easier maintainability
+    in the long run as well as type safety. Website uses Progressive Web Apps standards and contains a manifest.json.
+    'Tis using JSON-LD structured data and meta tags for SEO purposes.
+    Uses Sentry error logging with source mapping capabilities which show which line caused an error.
+    Google Analytics tracks searches and clicks.
 
     Site is actively hosted on Netlify under this link (Polish only): [https://www.fhumireks.pl](https://www.fhumireks.pl)
   technical_info:
-    Nuxt, Vue, TypeScript, class-component, SPA landing page, pre-rendered, real-life business website.
+    Nuxt; Vue; TypeScript; class-component; SPA landing page; pre-rendered; Sentry; JSON-lD; Google Analytics
 pl:
   title: Mireks - strona biura rachunkowego
   description: |
-    Strona internetowa w użytku dla biura rachunkowego Mireks. 
+    Strona "wizytówka" biura rachunkowego.
     
-    Strona stworzona przy użyciu Vue oraz Nuxt dla pre-renderingu korzystnego dla pozycjonowania strony.
-    Wykorzystanie TypeScriptu i class-componentów pozwala na streamlined development i type safety.
-    Projekt dostosowuje się do nowoczesnych standardów PWA i zawiera manifest.json.
-    Wykorzystuje dane strukturalne JSON-LD dla lepszych wyników w wyszukiwarkach (SEO).
-    Wysyła błędy do Sentry wraz z oryginalnym źródłem kodu oraz wykorzystuje Google Analytics do 
+    SPA stworzona przy użyciu Vue i pre-renderingu dzięki Nuxt, korzystnego dla pozycjonowania strony.
+    Class-componenty w TypeScript'cie ułatwiają przyszły rozwój strony dzięki statycznym typom.
+    Projekt dostosowuje się do standardów PWA, posiada manifest.json.
+    Zawiera dane strukturalne JSON-LD dla lepszych wyników w wyszukiwarkach (SEO).
+    Wysyła błędy do Sentry wraz z oryginalnym kodem źródłowym pokazując dokładnie która linijka kodu
+    wywołała u kogoś błąd. Wykorzystuje Google Analytics do
     śledzenia kliknięć, wpisów itp.
     
-    Strona jest aktywnie online, działa na Netlify pod linkiem: [https://www.fhumireks.pl](https://www.fhumireks.pl) (tylko po polsku).
+    Strona jest aktywna online, działa na Netlify pod linkiem: [https://www.fhumireks.pl](https://www.fhumireks.pl)
   technical_info:
-    Nuxt, Vue, TypeScript, class-component, SPA landing page, pre-rendered, prawdziwa biznesowa strona internetowa.
+    Nuxt; Vue; TypeScript; class-component; SPA landing page; pre-rendered; Sentry; JSON-LD; Google Analytics
 
 links:
   github: https://github.com/JakubKoralewski/mireks

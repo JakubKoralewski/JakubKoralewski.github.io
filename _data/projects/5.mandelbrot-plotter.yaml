@@ -2,21 +2,23 @@ title: Mandelbrot and Julia set plotter
 en:
   description:
     Mandelbrot and Julia set plotter cross-platform desktop application written in Rust as a university project.
-    Uses GPU, Vulkan shaders, implements zooming and dragging.
-    You can change between Mandelbrot, Julia and both side-by-side.
+    Uses GPU, Vulkan shaders, implements zooming, dragging and changing iteration count.
+    You can change between Mandelbrot and Julia views or have both side-by-side.
   technical_info:
-    Rust; winit; Vulkan; wgpu-rs crate allowing to run using Vulkan, Metal or DirectX.
-    Written with GLSL fragment shaders. Real-time shader rebuild with off-thread file watching.
-    Cross-platform. Full screen and high DPI support.
+    Rust; winit; Vulkan; wgpu-rs crate allowing to run using Vulkan, Metal or DirectX;
+    written with GLSL fragment shaders; real-time shader rebuild with off-thread file watching;
+    cross-platform; full screen and high DPI support
 pl:
   title: Ploter zbiorów Mandelbrota i Julii
   description:
     Aplikacja desktopowa napisana w języku Rust jako projekt na studiach.
-    Implementacja wykorzystuje GPU, shadery GLSL, wspiera zbliżanie i przesuwanie.
+    Wykorzystuje GPU dzięki napisanym fragment-shaderom GLSL.
+    Wspiera zbliżanie, przesuwanie i zmienianie ilości iteracji.
+    Pozwala na wybór widoku między zbiorem Mandelbrota, Julii lub obu na raz.
   technical_info:
-    Rust; winit; Vulkan; skrzynia wgpu-rs pozwalająca wykorzystać backend Vulkan, Metal lub DirectX.
-    Fragment shader-y napisane w GLSL. Reagowanie na zmiany w pliku shadera i budowanie w trakcie działania aplikacji.
-    Aplikacja cross-platform-owa. Pozwala zmaksymalizować i reaguje na zmianę DPI.
+    Rust; winit; Vulkan; skrzynia wgpu-rs pozwalająca wykorzystać backend Vulkan, Metal lub DirectX;
+    fragment shader-y napisane w GLSL; reagowanie na zmiany w pliku shadera i budowanie w trakcie działania aplikacji;
+    aplikacja cross-platform-owa; pozwala zmaksymalizować i reaguje na zmianę DPI
 
 links:
   github: https://github.com/JakubKoralewski/mandelbrot-wgpu-rs

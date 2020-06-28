@@ -3,10 +3,37 @@ title: Jakub Koralewski - jcubed.me
 tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
 htmldesc: Jakub Koralewski is a hobbist programmer. This site aims to present some of his web development and Python script projects and give some info to contact him.
 summary: 
-    - "I am a programmer located in Poland. I (try to) develop: cool websites\ 
-    using modern frameworks like Vue, weird Python bots and scripts. In my free time I like to pretend that I own a company."
-    - "Contact me at contact@jcubed.me."
-company_info: "We here at jcubed have come to know that it is better to reintermediate nano-strategically than to embrace nano-micro-intuitively. We pride ourselves not only on our back-end, intuitive, viral feature set, but our simple administration and simple operation. Your budget for growing should be at least one-third of your budget for engineering. We apply the proverb \"Like father like son\" not only to our synergies but our power to optimize. If you revolutionize compellingly, you may have to streamline iteravely. If you synergize mega-holistically, you may have to facilitate robustly. Do you have a scheme to become user-defined? Imagine a combination of HTML and COBOL. We will visualize the term \"bricks-and-clicks\". We have come to know that if you iterate globally then you may also architect super-ultra-mega-virally."
+    - "I am a programmer located in Poland.
+       I develop: (I think) cool websites 
+       using modern frameworks like Vue and React, weird Python
+       bots, scripts and more."
+    - "I'm interested in the Rust programming language and ML/AI."
+    - "In my free time I like to pretend that
+       I own a company.
+       Contact me at contact@jcubed.me."
+company_info: "After our enormous experience, we here at jcubed
+               have come to know that it
+               is preferable to reintermediate nano-strategically than to
+               embrace nano-micro-intuitively.
+               It was jcubed which first coined the term \"user\".
+               We put the proverb \"Try turning it off and on again\"
+               into action not only for our synergies but also for
+               our power to optimize.
+               We also employ the spells of DRY, KISS, FTBFS, FOAF
+               SOAP, WYSIAYG, WYSIWYG, WYSIWYM, WYWIWYWYWY, FAFIYGI, YYMVV
+               not only for our transparent incubation of Voodoo programming
+               backed by our client-server architecture using the SOA REST
+               Big Data on-the-cloud Agile for Machine Learning on IoT deives,
+               but also for rewriting it in Rust.
+               If 'tain't already, your budget for growing should be at
+               least one-third of your budget for engineering.
+               If you revolutionize compellingly, you may have to streamline iteratively.
+               But then also if you synergize mega-holistically, you may have to facilitate robustly.
+               But then, do you have a scheme to become user-defined? 
+               If not, imagine a combination of HTML and COBOL.
+               That's how we will visualize the term \"bricks-and-clicks\"! 
+               But of course, we have also come to know that if you iterate globally then you may also architect 
+               super-ultra-mega-virally."
 view_on_github: View my profile on GitHub
 view_on_linkedin: Or my profile on LinkedIn
 other_lang: pl
