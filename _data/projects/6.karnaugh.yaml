@@ -14,7 +14,7 @@ en:
     framer-motion for animations; tombstone.js for formula parsing; D3.js for parse tree visualization;
     testing with jest; statically hosted thanks to Github Pages and Next's static site generation;
     uses Sentry for error logging; undraw.co for vector images; icons from remixicon.com;
-    more technical info on the [technical implementation slide](jcubed.me/karnaugh/6)
+    more technical info on the [technical implementation slide](https://jcubed.me/karnaugh/6)
 pl:
   title: Wizualizacja/rozwiązanie siatki Karnaugh i prezentacja w jednym
   description: >
@@ -31,7 +31,7 @@ pl:
     animacje z framer-motion; analiza składniowa dzięki tombstone.js; D3.js do wizualizacji drzewa składni;
     testowanie z jest; hosting na Github Pages dzięki SSG Nexta; Sentry do powiadomień i wykrywania błędów;
     obrazki wektorowe z Undraw.co; ikonki z remixicon.com; więcej informacji technicznych na
-    [slajdzie o implementacji technicznej](jcubed.me/karnaugh/6)
+    [slajdzie o implementacji technicznej](https://jcubed.me/karnaugh/6)
 
 links:
   github: https://git.io/karnaugh
