@@ -1,12 +1,35 @@
 ---
 title: Jakub Koralewski - jcubed.me
 tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
-htmldesc: Jakub Koralewski to programista. Ta strona ma na celu pokazanie jego portfolio webowe, Pythonowe i info do kontaktu.
+htmldesc: Jakub Koralewski - programista. Ta strona to portfolio z projektami i info do kontaktu.
 summary:
-    - "Jestem aspirującym programistą z Polski. Robię stronki korzystając z frameworków typu Vue oraz dziwne boty i skrypty w Pythonie. W wolnym czasie lubię udawać, że jestem biznesmenem."
-    - "Skontaktuj się ze mną kontakt@jcubed.me!"
-company_info: "Po ogromnym rodzaju zdobytych doświadczeń tu, w jcubed, zauważyliśmy, że korzystniej jest nanostrategicznie reintermediować niż całkowicie pochłonąć się w intuicyjny nano-mikro development. Tak naprawdę to jcubed stworzył pojęcie \"użytkownika\". Szczycimy się nie tylko swoim zapasem popularnych, intuicyjnych funkcji, ale prostą administracją i szybkim supportem. Stosujemy przysłowie \"Spróbuj włączyć i wyłączyć\" nie tylko do kolaboracji ale do naszego zapału do optymizacji. Stosujemy także zasady DRY, KISS, FTBFS, FOAF, SOAP, WYSIAYG, WYSIWYG, WYSIWYM, WYWIWYG, YAFIYGI, YMMV w naszej transparentej inkubacji Voodoo programming opierającej się na architekturze klient-serwer używającej SOA REST Big Data on-the-cloud Agile do umożliwienia uczenia maszynowego w IoT. Bo skoro jeśli rewolucjonizujesz przekonująco możliwe, że będziesz musiał udoskonalać iteracyjnie! A jeśli kolaborujesz współcałościowo możesz też musieć wdrażać hożo. Wyobraź sobie połączenie HTMLa i COBOLa. Tak zobrazujemy pojęcie dystrybucji wielokanałowej. Zauważyliśmy, że jeśli syntezujesz globalnie to będziesz architektował superwirusowo."
-view_on_github: Obczaj profil na GitHubie
+    - "Jestem aspirującym programistą.
+       Robię (oby) fajne stronki korzystając z frameworków typu Vue i React,
+       dziwne boty i skrypty w Pythonie."
+    - "Interesuję się językiem Rust i jego zastosowaniami oraz ML/AI."
+    - "W wolnym czasie lubię udawać, że jestem biznesmenem.
+       Skontaktuj się ze mną kontakt@jcubed.me!"
+company_info: "Po ogromnym rodzaju zdobytych doświadczeń tu, w jcubed,
+               zauważyliśmy, że korzystniej jest nanostrategicznie reintermediować
+               niż całkowicie pochłonąć się w intuicyjny nano-mikro development.
+               Tak naprawdę to jcubed stworzył pojęcie \"użytkownika\". 
+               Szczycimy się nie tylko swoim zapasem popularnych, intuicyjnych funkcji,
+               ale prostą administracją i szybkim supportem. 
+               Stosujemy przysłowie \"Spróbuj włączyć i wyłączyć\" nie tylko do
+               kolaboracji ale do naszego zapału do optymizacji. 
+               Stosujemy także zasady DRY, KISS, FTBFS, FOAF, SOAP, WYSIAYG,
+               WYSIWYG, WYSIWYM, WYWIWYG, YAFIYGI, YMMV 
+               w naszej transparentej inkubacji Voodoo programming opierającej się 
+               na architekturze
+               klient-serwer używającej SOA REST Big Data on-the-cloud Agile
+               do umożliwienia uczenia maszynowego w IoT. 
+               Bo skoro jeśli rewolucjonizujesz przekonująco możliwe, że będziesz musiał
+               udoskonalać iteracyjnie! A jeśli kolaborujesz współcałościowo możesz
+               też musieć wdrażać hożo. Wyobraź sobie połączenie HTMLa i COBOLa.
+               Tak zobrazujemy pojęcie dystrybucji wielokanałowej.
+               Zauważyliśmy, że jeśli syntezujesz globalnie to będziesz architektował
+               superwirusowo."
+view_on_github: Obejrzyj profil na GitHubie
 view_on_linkedin: Albo profil na LinkedIn
 other_lang_path: ..
 other_lang: gb

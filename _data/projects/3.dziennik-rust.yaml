@@ -2,22 +2,26 @@ title: Dziennik Rust - Rust backend
 en:
   description: |
     A simple CRUD REST API backend written in Rust using actix-web, Diesel and PostgreSQL.
-    The functionality lacks both login and API authorization, and registering new users.
-    It was made for a school project and was never intended to be used in production!
+    The functionality lacks: login, authorization, as well as registering new users,
+    because 'twas never intended to be used in production as it was a high school project.
     
-    The site is actively hosted on Heroku and is used currently as the backend for the
+    The site is hosted on Heroku and is being used as the backend for the
     `dziennik-frontend` project.
+
+    The Heroku dyno may be sleeping, you have to give the backend time to wake up.
   technical_info:
-    Rust, actix-web, Diesel, PostgreSQL
+    Rust; actix-web; Diesel; PostgreSQL
 pl:
   description: |
     Prosty CRUD REST API backend napisany w Ruście z użyciem actix-web, Diesel i PostgreSQL.
-    Nie zaimplementowałem autoryzacji loginu, ani API, ani rejestracji nowych użytkowników.
-    Nigdy nie chciałem dodać tych funkcji, bo ten projekt był zrobiony jako projekt do szkoły.
+    Nie zaimplementowałem autoryzacji, loginu, ani rejestracji nowych użytkowników.
+    Dodanie tych funkcji nie było zamiarem, azaliż był to projekt na zajęcia w liceum.
     
     Backend jest obecnie aktywnie używany dla projektu `dziennik-frontend`.
+
+    Dinozaur Heroku może spać, bądź cierpliwy aż backend się obudzi.
   technical_info:
-    Rust, actix-web, Diesel, PostgreSQL
+    Rust; actix-web; Diesel; PostgreSQL
 
 links:
   github: https://github.com/JakubKoralewski/dziennik-rust
