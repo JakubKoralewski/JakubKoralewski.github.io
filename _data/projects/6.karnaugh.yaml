@@ -1,6 +1,8 @@
 title: Karnaugh Map solver/visualizer/presentation
 en:
-  description: >
+  description: |
+    Presentation live at [jcubed.me/karnaugh](https://jcubed.me/karnaugh).&nbsp;
+
     The presentation explains how a Karnaugh Map is assembled with nice animations,
     how to generate the rectangles for DNF, how to get the DNF, also
     visualizes formula parse tree, visualizes rectangles with hover animations.
@@ -17,7 +19,9 @@ en:
     more technical info on the [technical implementation slide](https://jcubed.me/karnaugh/6)
 pl:
   title: Wizualizacja/rozwiązanie siatki Karnaugh i prezentacja w jednym
-  description: >
+  description: |
+    Prezentacja dostępna na [jcubed.me/karnaugh](https://jcubed.me/karnaugh). &nbsp;
+
     Prezentacja (po angielsku) tłumaczy jak zbudować siatkę Karnaugh z tabelki prawda/fałsz przy użyciu
     różnych animacji, tłumaczy jak uzyskać z siatki dysjunkcyjną postać normalną (DNF) oraz
     jak uzyskać potrzebne do uzyskania DNFu prostokąty; także wizualizuje prostokąty SVG,
@@ -34,6 +38,6 @@ pl:
     [slajdzie o implementacji technicznej](https://jcubed.me/karnaugh/6)
 
 links:
-  github: https://git.io/karnaugh
+  github: https://github.com/JakubKoralewski/karnaugh
 img:
   https://upload.wikimedia.org/wikipedia/commons/0/02/K-map_6%2C8%2C9%2C10%2C11%2C12%2C13%2C14_anti-race.svg
