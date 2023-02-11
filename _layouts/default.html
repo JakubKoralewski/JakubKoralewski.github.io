@@ -24,11 +24,11 @@
 {% endcapture %}
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jakub Koralewski - jcubed.me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="APeQJwX21im2j3piFNIkbqrsr9Zf-e7zExGYWltayso" />
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Jakub Koralewski - jcubed.me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="google-site-verification" content="APeQJwX21im2j3piFNIkbqrsr9Zf-e7zExGYWltayso" />
 	<meta name="google-site-verification" content="Cq6FnCiB8y_K8qdXO86Jnq8KScpeVuNeeYX2JNbxcVw" />
 	<meta name="google-site-verification" content="9YbcAIvUCiCLoJCyKnhSavmzqwfJRMK_hSO3DUkQmiA" />
 
@@ -42,7 +42,7 @@
 	{%endif %}
 	<meta name="robots" content="index, follow" />
 	<meta name="keywords" content="Jakub Koralewski, github, vue, spa,
-						dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript, 
+						dziennik, koralewski, jakub, harwart, portfolio, Vue.js, TypeScript,
 						gh-pages" />
 	<script type="application/ld+json">
 		{
@@ -101,7 +101,7 @@
 	<title>Jakub Koralewski - j³cubed.me</title>
 	<meta property="og:title" content="Jakub Koralewski - jcubed.me">
 	<meta name="author" content="Jakub Koralewski">
-	<meta property="og:locale" content="{{site.lang | default: "en"}}">
+	<meta property="og:locale" content="{{site.lang | default: " en"}}">
 	<link rel="canonical" href="https://jcubed.me">
 	<meta property="og:url" content="https://jcubed.me">
 	<meta property="og:url" content="https://JakubKoralewski.github.io">
@@ -127,8 +127,7 @@
 			<section id="downloads">
 				<a href="{{ page.other_lang_path | default: page.other_lang | relative_url }}" class="btn">
 					<span class="icon">
-						<img
-							src="https://www.countryflags.io/{{page.other_lang | default: page.other_lang_cta}}/flat/64.png">
+						<img src="/{{page.other_lang | default: page.other_lang_cta}}.svg">
 					</span>
 					{{page.other_lang_cta}}
 				</a>
@@ -142,6 +141,13 @@
 							alt="LinkedIn Logo">
 					</span>
 					{{page.view_on_linkedin}}
+				</a>
+				<a href="https://stackoverflow.com/users/10854888/koral" class="btn btn-stackoverflow" target="_blank">
+					<span class="icon">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg"
+							alt="StackOverflow Logo">
+					</span>
+					{{page.view_on_stackoverflow}}
 				</a>
 			</section>
 		</div>

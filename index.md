@@ -2,9 +2,9 @@
 title: Jakub Koralewski - jcubed.me
 tags: [jakub, koralewski, portfolio, github, frontend developer, backend developer, vue, typescript, nuxt, javascript, js, ts, sass, scss, python, obs, rust]
 htmldesc: Jakub Koralewski is a hobbist programmer. This site aims to present some of his web development and Python script projects and give some info to contact him.
-summary: 
+summary:
     - "I am a programmer located in Poland.
-       I develop: (I think) cool websites 
+       I develop: (I think) cool websites
        using modern frameworks like Vue and React, weird Python
        bots, scripts and more."
     - "I'm interested in the Rust programming language and ML/AI."
@@ -29,13 +29,14 @@ company_info: "After our enormous experience, we here at jcubed
                least one-third of your budget for engineering.
                If you revolutionize compellingly, you may have to streamline iteratively.
                But then also if you synergize mega-holistically, you may have to facilitate robustly.
-               But then, do you have a scheme to become user-defined? 
+               But then, do you have a scheme to become user-defined?
                If not, imagine a combination of HTML and COBOL.
-               That's how we will visualize the term \"bricks-and-clicks\"! 
-               But of course, we have also come to know that if you iterate globally then you may also architect 
+               That's how we will visualize the term \"bricks-and-clicks\"!
+               But of course, we have also come to know that if you iterate globally then you may also architect
                super-ultra-mega-virally."
 view_on_github: View my profile on GitHub
 view_on_linkedin: Or my profile on LinkedIn
+view_on_stackoverflow: I fix others' bugs when I'm not busy fixing mine
 other_lang: pl
 lang: en
 other_lang_cta: Zmień na język polski
@@ -47,7 +48,7 @@ other_lang_cta: Zmień na język polski
 &nbsp;
 
 {% for project_hash in site.data.projects %}
-{% assign project = project_hash[1] %} 
+{% assign project = project_hash[1] %}
 
 
 <img src="{{project.img}}" width="100" align="left" />
@@ -56,19 +57,19 @@ other_lang_cta: Zmień na język polski
 
 {{project.en.description}}
 
-{% if project.gif %} 
+{% if project.gif %}
 
 ![]({{project.gif}}){:.video}
 
 {% endif %}
 
-{% if project.video %} 
+{% if project.video %}
 
 {{project.video}}
 
 {% endif %}
 #### Technical info:
-  
+
 {{project.en.technical_info}}
 
 &nbsp;
