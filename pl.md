@@ -38,7 +38,7 @@ lang: pl
 other_lang_cta: Change to English
 ---
 
-# Ciekawe projekty
+# Ciekawe projekty w losowej kolejności
 *Tytuły projektów to linki do repozytoriów na GitHubie!*{:.small}
 
 &nbsp;

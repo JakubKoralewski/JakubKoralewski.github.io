@@ -42,7 +42,7 @@ lang: en
 other_lang_cta: Zmień na język polski
 ---
 
-# Cool projects
+# Cool projects in random order
 *Titles of the projects are links to the repositories on GitHub!*{:.small}
 
 &nbsp;
