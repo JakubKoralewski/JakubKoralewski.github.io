@@ -2,7 +2,7 @@ title: Mireks - accounting firm website
 en:
   description: |
     An accounting firm landing page website.
-    
+
     Built using Vue with
     prerendering thanks to Nuxt. TypeScript class components allow for easier maintainability
     in the long run as well as type safety. Website uses Progressive Web Apps standards and contains a manifest.json.
@@ -10,14 +10,13 @@ en:
     Uses Sentry error logging with source mapping capabilities which show which line caused an error.
     Google Analytics tracks searches and clicks.
 
-    Site is actively hosted on Netlify under this link (Polish only): [https://www.fhumireks.pl](https://www.fhumireks.pl)
-  technical_info:
-    Nuxt; Vue; TypeScript; class-component; SPA landing page; pre-rendered; Sentry; JSON-lD; Google Analytics
+    Site is actively hosted on Netlify under this link (Polish only): [https://www.biurokoralewski.kalisz.pl](https://www.biurokoralewski.kalisz.pl)
+  technical_info: Nuxt; Vue; TypeScript; class-component; SPA landing page; pre-rendered; Sentry; JSON-lD; Google Analytics
 pl:
   title: Mireks - strona biura rachunkowego
   description: |
     Strona "wizytówka" biura rachunkowego.
-    
+
     SPA stworzona przy użyciu Vue i pre-renderingu dzięki Nuxt, korzystnego dla pozycjonowania strony.
     Class-componenty w TypeScript'cie ułatwiają przyszły rozwój strony dzięki statycznym typom.
     Projekt dostosowuje się do standardów PWA, posiada manifest.json.
@@ -25,13 +24,11 @@ pl:
     Wysyła błędy do Sentry wraz z oryginalnym kodem źródłowym pokazując dokładnie która linijka kodu
     wywołała u kogoś błąd. Wykorzystuje Google Analytics do
     śledzenia kliknięć, wpisów itp.
-    
-    Strona jest aktywna online, działa na Netlify pod linkiem: [https://www.fhumireks.pl](https://www.fhumireks.pl)
-  technical_info:
-    Nuxt; Vue; TypeScript; class-component; SPA landing page; pre-rendered; Sentry; JSON-LD; Google Analytics
+
+    Strona jest aktywna online, działa na Netlify pod linkiem: [https://www.biurokoralewski.kalisz.pl](https://www.biurokoralewski.kalisz.pl)
+  technical_info: Nuxt; Vue; TypeScript; class-component; SPA landing page; pre-rendered; Sentry; JSON-LD; Google Analytics
 
 links:
   github: https://github.com/JakubKoralewski/mireks
 
-img:
-  https://fhumireks.pl/mireks_og.jpg
+img: https://biurokoralewski.kalisz.pl/mireks_og.jpg

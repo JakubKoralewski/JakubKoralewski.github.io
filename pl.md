@@ -12,17 +12,17 @@ summary:
 company_info: "Po ogromnym rodzaju zdobytych doświadczeń tu, w jcubed,
                zauważyliśmy, że korzystniej jest nanostrategicznie reintermediować
                niż całkowicie pochłonąć się w intuicyjny nano-mikro development.
-               Tak naprawdę to jcubed stworzył pojęcie \"użytkownika\". 
+               Tak naprawdę to jcubed stworzył pojęcie \"użytkownika\".
                Szczycimy się nie tylko swoim zapasem popularnych, intuicyjnych funkcji,
-               ale prostą administracją i szybkim supportem. 
+               ale prostą administracją i szybkim supportem.
                Stosujemy przysłowie \"Spróbuj włączyć i wyłączyć\" nie tylko do
-               kolaboracji ale do naszego zapału do optymizacji. 
+               kolaboracji ale do naszego zapału do optymizacji.
                Stosujemy także zasady DRY, KISS, FTBFS, FOAF, SOAP, WYSIAYG,
-               WYSIWYG, WYSIWYM, WYWIWYG, YAFIYGI, YMMV 
-               w naszej transparentej inkubacji Voodoo programming opierającej się 
+               WYSIWYG, WYSIWYM, WYWIWYG, YAFIYGI, YMMV
+               w naszej transparentej inkubacji Voodoo programming opierającej się
                na architekturze
                klient-serwer używającej SOA REST Big Data on-the-cloud Agile
-               do umożliwienia uczenia maszynowego w IoT. 
+               do umożliwienia uczenia maszynowego w IoT.
                Bo skoro jeśli rewolucjonizujesz przekonująco możliwe, że będziesz musiał
                udoskonalać iteracyjnie! A jeśli kolaborujesz współcałościowo możesz
                też musieć wdrażać hożo. Wyobraź sobie połączenie HTMLa i COBOLa.
@@ -31,6 +31,7 @@ company_info: "Po ogromnym rodzaju zdobytych doświadczeń tu, w jcubed,
                superwirusowo."
 view_on_github: Obejrzyj profil na GitHubie
 view_on_linkedin: Albo profil na LinkedIn
+view_on_stackoverflow: Usuwam innym bugi jak akurat ja nie mam bugów
 other_lang_path: ..
 other_lang: gb
 lang: pl
@@ -43,7 +44,7 @@ other_lang_cta: Change to English
 &nbsp;
 
 {% for project_hash in site.data.projects %}
-{% assign project = project_hash[1] %} 
+{% assign project = project_hash[1] %}
 
 
 <img src="{{project.img}}" width="100" align="left" />
@@ -52,19 +53,19 @@ other_lang_cta: Change to English
 
 {{project.pl.description}}
 
-{% if project.gif %} 
+{% if project.gif %}
 
 ![]({{project.gif}}){:.video}
 
 {% endif %}
-{% if project.video %} 
+{% if project.video %}
 
 {{project.video}}
 
 {% endif %}
 
 #### Technical info:
-  
+
 {{project.pl.technical_info}}
 
 &nbsp;
@@ -92,6 +93,3 @@ other_lang_cta: Change to English
 &nbsp;
 {{page.company_info}}
 {: style="color:#666;"}
-
-
-
